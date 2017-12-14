@@ -23,7 +23,7 @@ Columns supplied are the following:
 * **observed distance** (nautical miles): the observed distance of the vessel
 
 **The API must support the following:**
-* filterable by: **imo** (one or more), **condition**, **time frame** as well as **fuel_consumption** (greater,lower either for meCons or auxCons). The output must contain the reports data along with the vessel name and email from vessels.csv file.
+* filterable by: **imo** (one or more), **condition**, **datetime frame** as well as **fuel_consumption** (greater,lower either for meCons or auxCons). The output must contain the reports data along with the vessel name and email from vessels.csv file.
 * Create a rate limiter to limit requests per user to **5/hour**. Use the request ip address to define the user. 
 * Create a log for the incoming requests (e.g database table, plain text etc.)
 * Return the output based on an input parameter that defines the format (JSON, CSV)
