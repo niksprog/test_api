@@ -1,6 +1,6 @@
 # Vessels Reports API 
 
-Create a **RESTful API** with Laravel 5.5 that serves vessels reports from the provided csv files.
+Create a **RESTful API** with Laravel 5.5 that serves vessels reports based on the provided csv files.
 Use the reports.csv and vessels.csv files as your data source and import them into a database schema of your choice. 
 
 Columns supplied are the following:
