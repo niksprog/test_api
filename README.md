@@ -13,7 +13,6 @@ Columns supplied are the following:
 
 **reports.csv**
 
-* **id**: incremental id number
 * **imo**: vessel's imo.
 * **created_on**: the received datetime of the report
 * **conditionType**: vessel's condition (steaming, anchor)
