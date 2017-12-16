@@ -1,5 +1,6 @@
 <?php
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,7 +12,6 @@
 |
 */
 
-
 Horizon::auth(function ($request) {
     return \Auth::check();
 });
@@ -20,3 +20,10 @@ Horizon::auth(function ($request) {
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+

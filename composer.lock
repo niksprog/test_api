@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "2c436f2fb5e996c10531819aceef9dc3",
+    "content-hash": "9c0a5fb16441673c3cda78a60756878e",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -729,6 +729,70 @@
             "time": "2017-07-13T13:11:05+00:00"
         },
         {
+            "name": "league/csv",
+            "version": "9.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/csv.git",
+                "reference": "66118f5c2a7e4da77e743e69f74773c63b73e8f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/csv/zipball/66118f5c2a7e4da77e743e69f74773c63b73e8f9",
+                "reference": "66118f5c2a7e4da77e743e69f74773c63b73e8f9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mbstring": "*",
+                "php": ">=7.0.10"
+            },
+            "require-dev": {
+                "ext-curl": "*",
+                "friendsofphp/php-cs-fixer": "^2.0",
+                "phpunit/phpunit": "^6.0"
+            },
+            "suggest": {
+                "ext-iconv": "Needed to ease transcoding CSV using iconv stream filters"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "9.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "League\\Csv\\": "src"
+                },
+                "files": [
+                    "src/functions_include.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ignace Nyamagana Butera",
+                    "email": "nyamsprod@gmail.com",
+                    "homepage": "https://github.com/nyamsprod/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Csv data manipulation made easy in PHP",
+            "homepage": "http://csv.thephpleague.com",
+            "keywords": [
+                "csv",
+                "export",
+                "filter",
+                "import",
+                "read",
+                "write"
+            ],
+            "time": "2017-11-28T08:29:49+00:00"
+        },
+        {
             "name": "league/flysystem",
             "version": "1.0.41",
             "source": {
@@ -810,6 +874,58 @@
                 "storage"
             ],
             "time": "2017-08-06T17:41:04+00:00"
+        },
+        {
+            "name": "marcelgwerder/laravel-api-handler",
+            "version": "v0.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/marcelgwerder/laravel-api-handler.git",
+                "reference": "1743354271e46a80c7b436bed8e210b3592f236a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/marcelgwerder/laravel-api-handler/zipball/1743354271e46a80c7b436bed8e210b3592f236a",
+                "reference": "1743354271e46a80c7b436bed8e210b3592f236a",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/database": "~5.0",
+                "illuminate/http": "~5.0",
+                "illuminate/support": "~5.0",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9",
+                "phpunit/phpunit": "~4.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Marcelgwerder\\ApiHandler\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcel Gwerder",
+                    "email": "info@marcelgwerder.ch"
+                }
+            ],
+            "description": "Package providing helper functions for a Laravel REST-API ",
+            "homepage": "http://github.com/marcelgwerder/laravel-api-handler",
+            "keywords": [
+                "api",
+                "laravel",
+                "mysql",
+                "parse",
+                "rest",
+                "url"
+            ],
+            "time": "2017-12-02T14:23:20+00:00"
         },
         {
             "name": "monolog/monolog",
