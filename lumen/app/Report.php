@@ -23,8 +23,8 @@ class Report extends Model
     public $timestamps = false;
 
     /**
-    * Get the Vessel that owns the Report.
-    */
+     * Get the Vessel that owns the Report.
+     */
     public function vessel() {
         return $this->belongsTo('App\Vessel');
     }

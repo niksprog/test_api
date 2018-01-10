@@ -28,6 +28,9 @@ class User extends Model implements AuthenticatableContract, AuthorizableContrac
 
     public $timestamps = false;
 
+    /**
+     * Get Requests assigned to User
+     */
     public function requests() {
         return $this->hasMany('App\Request');
     }

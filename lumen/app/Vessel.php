@@ -19,7 +19,9 @@ class Vessel extends Model
      */
     public $timestamps = false;
 
-    // todo add comments
+    /**
+     * Get Reports assigned to Vessel
+     */
     public function reports() {
         return $this->hasMany('App\Report');
     }

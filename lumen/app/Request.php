@@ -27,7 +27,9 @@ class Request extends Model
      */
     public $timestamps = false;
 
-    // todo add comments
+    /**
+     * Get the User that owns the Request.
+     */
     public function user() {
         return $this->belongsTo('App\User');
     }
