@@ -120,10 +120,8 @@ class ReportController extends Controller
                 $report->observedDistance
             ]);
         }
+        
         return $csv->getContent();
-        $csv->output('reports.csv');
-        die;
-
     }
 
     /**
